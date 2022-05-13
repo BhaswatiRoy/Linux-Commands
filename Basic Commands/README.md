@@ -8,3 +8,6 @@ After creating Linux Enviroment in Virtual Machine ~
 6. `df` - report file system disk space usage details
 7. `stat` - display file or file system statistics/status
 8. `file` - determine file type of a given file
+9. `cd` - change directory
+10. `~` - refers to current user's home directory as the shell expands the tilde character to the path of user's home directory
+11. 
