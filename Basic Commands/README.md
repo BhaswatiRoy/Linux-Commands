@@ -10,4 +10,8 @@ After creating Linux Enviroment in Virtual Machine ~
 8. `file` - determine file type of a given file
 9. `cd` - change directory
 10. `~` - refers to current user's home directory as the shell expands the tilde character to the path of user's home directory
-11. 
+11. `pwd` - display the absolute path of current working directory
+12. `..` - signifies the last directory of current directory
+13. `mkdir` - creates new directories inside current directory, multiple directories can be created by mentioning with space separation
+14. `rmdir` - deletes directories inside current directory
+15. `cp` - copies data inside option 1 to option 2 written after the command
