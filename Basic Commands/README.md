@@ -29,4 +29,11 @@ After creating Linux Enviroment in Virtual Machine ~
 27.  `nano` - change the file 
 28.  `ln -s` - creates soft links from b to a file // ln -s a b //softlinks point to files
 29.  `ln` - creates hard links from b to a file // ln a b //hardlinks point to exact data
-30.  
+30.  `echo` - prints the text as it is given in the parameters
+31.  `wc` - prints the newline, word, characters count for each text
+32.  `cat` - concatenates 2 links together/output text files contents to screen or to another program
+33.  `head` - shows first 10 lines of file by default
+34.  `tail` - shows last 10 lines of file by default
+35.  `less` - shows contents of file in a UI manner like we can scroll around 
+36.  `grep` - displays only those lines that contain the text passed as parameter in the file passed as parameter //case sensitive, highlights the required text and supports Regex
+37.  `awk` - 
