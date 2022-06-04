@@ -8,4 +8,4 @@
 8. `-i` - removes case sentiveness of any command and makes it case insensitive
 9. `-v` - shows the portions of file that don't contain the text passed as parameter
 10. `-E` - helps us to use Regex
-11. 
+11. `-u` - checks for unique values
