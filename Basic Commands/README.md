@@ -36,4 +36,11 @@ After creating Linux Enviroment in Virtual Machine ~
 34.  `tail` - shows last 10 lines of file by default
 35.  `less` - shows contents of file in a UI manner like we can scroll around 
 36.  `grep` - displays only those lines that contain the text passed as parameter in the file passed as parameter //case sensitive, highlights the required text and supports Regex
-37.  `awk` - 
+37.  `awk` - scanning a file and performing various tasks // '{print $2}' means print 2nd column & '{print $2 "\t" $1}' means print 1st some space and 2nd column
+38.  `sort` - sorts the data in the column in a file // for numeric sort we use '-n' option
+39.  `sed` - change all occurences of a value in a file with another value // like "sed s/(old text)/(new text)/ filename" where s is for strings
+40.  `vi` - opens the VI tool(text editor) in Ubuntu by either opening an empty file in text editor or pre written files
+41.  `nano` - opens the Nano tool(text editor) in Ubuntu by either opening an empty file in text editor or pre written files
+42.  `env` - shows all environment variables that we can use
+43.  `which` - shows the absolute location of any command in any sytem
+44.  
