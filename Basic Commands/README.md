@@ -43,4 +43,4 @@ After creating Linux Enviroment in Virtual Machine ~
 41.  `nano` - opens the Nano tool(text editor) in Ubuntu by either opening an empty file in text editor or pre written files
 42.  `env` - shows all environment variables that we can use
 43.  `which` - shows the absolute location of any command in any sytem
-44.  
+44.  `less /etc/passwd` - shows the 7 column user account details along with other details
