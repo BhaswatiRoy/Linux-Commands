@@ -47,3 +47,6 @@ After creating Linux Enviroment in Virtual Machine ~
 45.  `sudo less /etc/shadow` - displays the entire shadow file which contains hashed passwords of users and is only accessible by root user
 46.  `less /etc/group` - displays all details of groups in current linux system
 47.  `sudo less /etc/group` -  displays the entire shadow file which contains hashed passwords of group users and is only accessible by root user
+48.  `cat /etc/login.defs` - used to check the hash type and can be used to configure the hash type also
+49.  `echo 'password' | pwscore` - checks the score of password // can't check for simple dictionary words, passwords same as username, length of password < 8
+50.  
