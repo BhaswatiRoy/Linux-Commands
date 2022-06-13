@@ -44,3 +44,6 @@ After creating Linux Enviroment in Virtual Machine ~
 42.  `env` - shows all environment variables that we can use
 43.  `which` - shows the absolute location of any command in any sytem
 44.  `less /etc/passwd` - shows the 7 column user account details along with other details
+45.  `sudo less /etc/shadow` - displays the entire shadow file which contains hashed passwords of users and is only accessible by root user
+46.  `less /etc/group` - displays all details of groups in current linux system
+47.  `sudo less /etc/group` -  displays the entire shadow file which contains hashed passwords of group users and is only accessible by root user
