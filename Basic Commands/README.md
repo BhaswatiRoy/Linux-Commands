@@ -49,4 +49,10 @@ After creating Linux Enviroment in Virtual Machine ~
 47.  `sudo less /etc/group` -  displays the entire shadow file which contains hashed passwords of group users and is only accessible by root user
 48.  `cat /etc/login.defs` - used to check the hash type and can be used to configure the hash type also
 49.  `echo 'password' | pwscore` - checks the score of password // can't check for simple dictionary words, passwords same as username, length of password < 8
-50.  
+50.  `chage` - views and changes password of user as mentioned //"sudo chage -l bhaswatiroy" to only list password details
+51.  `sudo passwd -x username` - gives various details of password when we change value of x in options //-d(deletes),-e(expires),-l(locks),-u(unlocks),-s(output status)
+52.  `whoami` - displays the current username of user (shows "root" when root user is logged in)
+53.  `logname` - displays the current username of user (shows root user's username when root user is logged in)
+54.  `sudo groupadd -g groupid(number) groupname` - creates a new group with group name & id mentioned //can be viewed using "cat /etc/group" command
+55.  `sudo groupdel groupname` - deleted the group with group name mentioned
+56.  
