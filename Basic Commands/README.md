@@ -55,4 +55,5 @@ After creating Linux Enviroment in Virtual Machine ~
 53.  `logname` - displays the current username of user (shows root user's username when root user is logged in)
 54.  `sudo groupadd -g groupid(number) groupname` - creates a new group with group name & id mentioned //can be viewed using "cat /etc/group" command
 55.  `sudo groupdel groupname` - deleted the group with group name mentioned
-56.  
+56.  `history` - show list of most recently used commands
+57.  `shopt` -
