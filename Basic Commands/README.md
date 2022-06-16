@@ -56,4 +56,7 @@ After creating Linux Enviroment in Virtual Machine ~
 54.  `sudo groupadd -g groupid(number) groupname` - creates a new group with group name & id mentioned //can be viewed using "cat /etc/group" command
 55.  `sudo groupdel groupname` - deleted the group with group name mentioned
 56.  `history` - show list of most recently used commands
-57.  `shopt` -
+57.  `printenv` - shows all environment variables that the shell has access to
+58.  `printenv x` - shows the environment variable x that the shell has access to
+59.  `set` - shows all the shell variables of that particular shell
+60.  
